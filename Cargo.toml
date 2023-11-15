@@ -2,6 +2,11 @@
 name = "chdb-bindings-rs"
 version = "0.1.0"
 edition = "2021"
+authors = ["Ivan Chirkin <chirkin.ivan@gmail.com>"]
+description = "Bindings for libchdb"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/fixcik/chdb-bindings-rs"
+keywords = ["chdb", "libchdb", "bindings", "clickhouse"]
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
