@@ -1,6 +1,6 @@
 [package]
 name = "chdb-bindings-rs"
-version = "0.1.0"
+version = "0.1.6"
 edition = "2021"
 authors = ["Ivan Chirkin <chirkin.ivan@gmail.com>"]
 description = "Bindings for libchdb"
@@ -12,8 +12,3 @@ keywords = ["chdb", "libchdb", "bindings", "clickhouse"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-
-[build-dependencies]
-bindgen = "0.69.1"
-reqwest = { version = "0.11.22", features = ["blocking"] }
-zip = "0.6.6"
